@@ -1,4 +1,14 @@
 #!/usr/bin/env python3
+
+""" Author: Aaron Baumgarner
+    Created: 12/14/20
+    Updated: 1/3/21
+    Notes: Main class where the game starts. The user is prompted for a username and then a monster is randomly generated. Once the monster has been generated
+            the user is prompted to either attack, run, or quit the game. Attacking will run the battle class. If the user decides to run, the current encounter
+            will end and a new monster will be randomly selected. This little program was created to pass the time and to get me back into programming. 
+
+"""
+
 import player
 import monster
 import battle

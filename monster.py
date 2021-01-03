@@ -1,6 +1,16 @@
 #!/usr/bin/env python3
 import random
 
+""" Author: Aaron Baumgarner
+    Created: 12/14/20
+    Updated: 1/3/21
+    Notes: Class used for generating variuous monster types for the player to battle. This is based on how I would have written it in Java or C# but without extracting it even more. I could 
+            write it with a single monster class and then send in each element but having a class for each monster type allows for someone to look at the code more easily. Encoutner function
+            simply generates a new random number and creates a new monster based on the random number. I may need to adjust it to allow for more smaller monsters later on since a wolf is 
+            generated more often. 
+
+"""
+
 """ Basic beast with moderate power """
 class Beast:
     def __init__(self):
